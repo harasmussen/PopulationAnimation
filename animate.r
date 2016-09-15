@@ -2,11 +2,9 @@
 
 # convert -delay 10 -loop 0 frame* befolkning.gif
 
-IMAGEFILE = '~/tmp/frame%03d.png'
+IMAGEFILE = 'frame%03d.png'
 PLOTTITLE = 'Population, Denmark, %s'
-# data1 <- read.csv("befolkningstal1901-1970.csv", head=TRUE, row.names = 1)
-# For same reason All lables are prefixed with an X. 
-#colnames(data1) = gsub("X","",colnames(data1))
+
 
 data2 <- read.csv("befolkningstal.csv")
 
